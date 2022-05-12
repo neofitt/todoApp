@@ -1,0 +1,90 @@
+.todo{
+	background: var(--form-bg);
+	
+	width: 100%;
+	height: 8vh;
+	border: none;
+
+  border-bottom: 0.5px solid var(--border-color);
+
+	padding-left: 30px;
+  padding-right: 30px;
+	
+  font-size: 14px;
+	font-weight: var(--weight-normal);
+	color: var(--text-color);
+
+	display: flex;
+	justify-content: left;
+
+	position: relative;
+	
+  cursor: grab;
+}
+
+
+.todo__checkbox label {
+  background-color: var(--form-bg);
+  border: 1px solid red;
+  border-color: var(--border-color);
+  border-radius: 50%;
+  cursor: pointer;
+  height: 22px;
+  left: 20px;
+  position: absolute;
+  top: 10px;
+  width: 22px;
+}
+
+.todo__checkbox label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 2px;
+  left: 5px;
+  opacity: 0;
+  position: absolute;
+  top: 7px;
+  transform: rotate(-45deg);
+  width: 8px;
+}
+
+.todo__checkbox input{
+	visibility:hidden;
+}
+
+.todo__checkbox input[type="checkbox"]:checked + label {
+  background: linear-gradient(hsl(192, 100%, 67%),hsl(280, 87%, 65%));
+  border-color: #66bb6a;
+}
+
+.todo__checkbox input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+.todo__text{
+	margin-left: 25px;
+
+}
+
+.todo__text--done{
+  text-decoration: line-through;
+  font-weight: var(--weight-normal);
+  color: var(--done);
+}
+
+.iconButton{
+  color: var(--done);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+
+  cursor: pointer;
+}
+
+.iconButton__icon {
+  margin-left: 25px;
+}
+

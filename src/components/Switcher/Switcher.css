@@ -1,0 +1,11 @@
+.switcher {
+	cursor: pointer;
+	
+	
+
+}
+
+.switcher__img {
+	margin: auto;
+	display: block;
+}

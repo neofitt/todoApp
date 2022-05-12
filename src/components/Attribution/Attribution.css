@@ -1,0 +1,21 @@
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+
+	color: var(--attribution-color);
+
+	align-self: flex-end;
+	vertical-align : bottom;
+	text-align: center;
+	margin-top: auto;
+
+
+	/* position: absolute;
+	bottom: 0; */
+	
+	}
+
+.attribution a{ 
+	color: var(--attribution-color);
+	text-decoration: none;
+	}

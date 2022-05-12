@@ -1,0 +1,55 @@
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Josefin Sans', sans-serif;
+  
+  font-size: 18px;
+  --radius: 4px;
+  --weight-normal: 400;
+  --weight-bold: 700;
+  
+  --active: hsl(220, 98%, 61%);
+}
+
+body[theme='dark'] {
+  --bg: hsl(235, 21%, 11%);
+  --bg-image:url('./assets/bg-mobile-dark.jpg');
+  --bg-imageL:url('./assets/bg-desktop-dark.jpg');
+  --form-bg:hsl(235, 24%, 19%);
+
+  --adder-color: hsl(234, 11%, 52%);
+  --text-color: hsl(234, 39%, 85%);
+  --done:hsl(234, 11%, 52%);
+  --border-color: hsl(236, 9%, 61%);
+  --informer-color: hsl(234, 11%, 52%);
+  --attribution-color:hsl(234, 39%, 85%);
+  --text-info: hsl(235, 19%, 35%);
+}
+
+body[theme='light']{
+  --bg:hsl(0, 0%, 98%);
+  --bg-image:url('./assets/bg-mobile-light.jpg');
+  --bg-imageL:url('./assets/bg-desktop-light.jpg');
+  --form-bg:hsl(236, 33%, 92%);
+
+  --adder-color: hsl(234, 11%, 52%);
+  --text-color:hsl(235, 19%, 35%);
+  --done: hsl(236, 9%, 61%);
+  --border-color:hsl(234, 39%, 85%);
+  --informer-color: hsl(235, 19%, 35%);
+  --attribution-color:hsl(235, 19%, 35%);
+  --text-info:hsl(234, 11%, 52%);
+}
+
+:root {
+  
+}
+

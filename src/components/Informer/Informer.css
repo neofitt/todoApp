@@ -1,0 +1,19 @@
+.informer{
+	background: var(--form-bg);
+	
+	width: 100%;
+	height: 8vh;
+	border: none;
+
+  	border-bottom: 0.5px solid var(--border-color);
+
+	padding-left: 30px;
+	
+  	font-size: 12px;
+	font-weight: var(--weight-normal);
+	color: var(--text-color);
+
+	display: flex;
+	justify-content: left;	
+  
+}

@@ -1,0 +1,24 @@
+.adder {
+	margin-bottom: 20px;
+	
+}
+
+.adder__input{
+	width: 100%;
+	background: var(--form-bg);
+	height: 40px;
+	outline: none;
+	border: none;
+	border-radius: var(--radius);
+	padding-left: 30px;
+	font-size: 14px;
+	font-weight: var(--weight-normal);
+
+	color: var(--adder-color);
+
+	cursor: pointer;
+}
+
+.adder__input:active {
+	outline: none;
+}

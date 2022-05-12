@@ -1,0 +1,35 @@
+.analytics {
+	height: 6vh;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	font-size: 12px;
+	padding: 10px 20px;
+	color: var(--done);
+}
+
+
+.viewmenu{
+	display: flex;
+	flex-direction: row;
+	
+	font-weight: var(--weight-bold);
+
+	cursor: pointer;
+
+}
+
+.viewmenu__item:nth-child(2) {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.viewmenu__item--active{
+	color: var(--active);
+}
+
+.analytics--clear{
+	cursor: pointer;
+}

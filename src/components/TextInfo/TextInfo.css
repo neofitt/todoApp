@@ -1,0 +1,14 @@
+.textInfo{
+
+	
+	width: 100%;
+
+	border: none;
+	
+	margin-top: 20px;
+	padding-left: 100px;
+	
+	font-size: 12px;
+	font-weight: var(--weight-normal);
+	color: var(--text-info);
+}

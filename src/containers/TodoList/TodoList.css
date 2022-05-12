@@ -1,0 +1,14 @@
+.todolist{
+	border-radius: var(--radius);
+	background: var(--form-bg);
+
+	overflow: hidden;
+}
+
+
+.info{
+	font-weight: var(--weight-normal);
+	color: var(--informer-color);
+	font-size: 14px;
+	margin: 5px 30px;
+}

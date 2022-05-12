@@ -1,0 +1,21 @@
+.App {
+  	background-image: var(--bg-image);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+	background-size: contain;
+
+	background-position: stretch;
+	
+	min-height: 100vh;
+
+	background-color: var(--bg);
+
+}
+
+
+@media (min-width: 1024px) {
+  .App {
+    background-image: var(--bg-imageL);
+  }
+}
