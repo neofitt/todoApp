@@ -67,6 +67,7 @@ function Main (){
 
   const setEditMode = (id)=>{
     const todosCopy = todos.map(todo=>{
+      if(todo.isEditing===true){todo.isEditing=!todo.isEditing};
       if(todo.id===id){todo.isEditing=!todo.isEditing};
       return todo;
   });

@@ -1,6 +1,6 @@
 import './Todo.css';
 
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 import {TodoContext, DragContext} from './../../context';
 
 import EditInput from './../EditInput/EditInput';
@@ -12,10 +12,13 @@ const Todo = ({id, text, done, isEditing})=>{
 
 	const {setWhatDrag, setWhereDrag, reorderTodo} = useContext(DragContext);
 
+	useEffect(()=>{
+		setEditMode(false);
+	}, []);
+
 	const changeDone = ()=>{
 		markDone(id);
 	}
-
 
 	function handleDragStart(e, id) {
 		setWhatDrag(id);
